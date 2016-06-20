@@ -9,6 +9,7 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <!-- endbower -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
@@ -49,7 +50,7 @@
 
     <div class="container">
     <div ng-view=""></div>
-      <Div><p>This is test Text</p></Div>
+      <Div class="test1"><p class="test1">This is test Text</p></Div>
     </div>
 
     <div class="footer">
@@ -72,6 +73,8 @@
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

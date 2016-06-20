@@ -81,3 +81,8 @@ body {
     border-bottom: 0;
   }
 }
+
+.test1 {
+  font-weight: 900;
+  border: 5pt solid black;
+}
